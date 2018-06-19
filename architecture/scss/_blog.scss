@@ -1,0 +1,142 @@
+.blog {
+	margin-top: 80px;
+
+	&.container-fluid {
+		padding: 0;
+	}
+
+	.big-post-block {
+		position: relative;
+		height: 435px;
+		margin-bottom: 55px;
+
+		.image {
+			position: absolute;
+			top: 0;
+			width: 45%;
+			height: 435px;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+		}
+
+		.description {
+			position: absolute;
+			top: 0;
+			width: 55%;
+			height: 435px;
+		}
+
+		&.right {
+			.image {
+				left: 0;
+			}
+			.description {
+				right: 0;
+				background-color: #3b933b;
+			}
+			.category {
+				color: #000;
+				background-color: #fcee42;
+			}
+		}
+
+		&.left {
+			.image {
+				right: 0;
+			}
+			.description {
+				left: 0;
+				background-color: #fcee42;
+			}
+			.category {
+				color: #fff;
+				background-color: #3b933b;
+			}
+		}
+
+		.category {
+			width: 330px;
+			padding: 10px 20px;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		h2 {
+			max-width: 300px;
+			margin-top: 55px;
+			font-size: 30px;
+			font-weight: bold;
+			text-transform: uppercase;
+			line-height: 1.3em;
+		}
+
+		a {
+			font-weight: bold;
+			color: #000;
+		}
+
+		span {
+			margin-left: 170px;
+		}
+	}
+
+	.post-card {
+		margin-bottom: 30px;
+
+		.image {
+			position: relative;
+			width: 100%;
+			height: 268px;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+
+			.category {
+				position: absolute;
+				left: 0; bottom: 0;
+				width: 300px;
+				padding: 10px 20px;
+				font-weight: bold;
+				color: #fff;
+				background-color: #3b933b;
+			}
+		}
+
+		.description {
+			margin-top: -5px;
+			padding: 30px;
+			border: 1px solid #000;
+			border-top: none;
+
+			h2 {
+				height: 80px;
+				font-weight: bold;
+			}
+
+			a {
+				font-weight: bold;
+				color: #000;
+			}
+
+			span {
+				margin-left: 170px;
+			}
+		}
+	}
+
+	#blog-load-more {
+		display: block;
+		margin: 25px auto 55px auto;
+		padding: 10px 50px;
+		font-size: 20px;
+		color: #fff;
+		background-color: #3b933b;
+		outline: none;
+
+		&.inactive {
+			background-color: #808e81;
+			pointer-event: none;
+		}
+	}
+}

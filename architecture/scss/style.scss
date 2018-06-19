@@ -1,0 +1,243 @@
+/*!
+Theme Name: Architecture of the Future
+Theme URI: smart-site.pro
+Text Domain: arch
+Author: Smart-Site.pro
+Author URI: smart-site.pro
+Description: Custom theme for Architecture of the Future
+Version: 1.0
+Tags: architecture, adaptive
+*/
+
+@import 'fonts';
+@import 'settings';
+@import 'mixins';
+@import 'footer';
+@import 'header';
+@import 'front';
+@import 'blog';
+@import 'speakers';
+@import 'partners';
+@import 'blog-page';
+@import 'policy';
+@import 'terms';
+
+.container_stub {
+	overflow: hidden;
+	position: relative;
+	height: 100vh;
+  	min-height: 777px;
+	.en-text {
+		display: none;
+	}
+	.row-stub {
+		margin: 0;
+		.row-inner {
+			padding: 0;
+			.stub_wrap {
+				display: flex;
+				justify-content: space-between;
+				.text_inner {
+					width: 75%;
+					padding-left: 13%;
+					padding-bottom: 60px;
+					@media (max-width: 450px) {
+				    padding-left: 5%;
+					}
+					.text_inner_header {
+						margin-top: 70px;
+				    display: flex;
+  					justify-content: space-between;
+						.logo-img {
+							background-image: url(img/logo.png);
+							background-repeat: no-repeat;
+    					background-position: 50% 50%;
+    					background-size: contain;
+    					height: 45px;
+    					width: 195px;
+						}
+						.switch-block {
+							font-size: 18px;
+							display: flex;
+					    margin-left: 30px;
+							span {
+								cursor: pointer;
+							}
+						}
+					}
+					.text_inner_body {	
+				    	margin-top: 45px;		
+						.xl-text {
+							font-family: "FuturaNewBoldReg";
+							font-size: 42px;
+							margin: 0;
+					    text-transform: uppercase;
+					    line-height: 50px;
+			        	min-width: 342px;
+					    @media (max-width: 450px) {
+					    	font-size: 35px;
+		    	    	line-height: 39px;
+					    }
+						}
+						.location-block {
+							font-size: 23px; 
+					    margin-top: 100px;
+			        min-width: 250px;
+						}
+						.button-block {
+							margin-top: 45px;
+							button {
+				    		background: #3B933B;
+						    border: none;
+						    color: #FFFFFF;
+						    font-size: 20px;
+						    width: 240px;
+						    padding: 10px;
+						    &:focus {
+						    	outline: none;
+						    }
+						    &:hover {
+						    	background-color: black;
+						    }
+							}
+						}
+					}
+				}
+				.img-inner {
+					width: 100%;
+					height: calc(100vh - 100px);
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: left bottom;
+					background-image: url('img/stub1.png');
+					@media (max-height: 760px) {
+						height: auto;
+					}
+				}	
+			}
+		}	
+	}	
+	.footter-stub_wrap {
+		background-color: #FCEE42;
+		height: 100px;
+		font-size: 23px;
+		position: absolute;
+		left: 0; bottom: 0;
+		width: 100%;
+		@media (max-width: 450px) {
+			height: 155px;
+		}
+    p {
+			padding: 30px 0px 0px 13%;
+			@media (max-width: 450px) {
+				padding: 5%;
+			}
+    }
+	}	
+	.form-block {
+	    position: absolute;
+	    width: 100%;
+	    background-color: #FCEE42;
+	    left: 0;
+	    bottom: -200px;
+	    display: flex;
+	    height: 200px;
+	    justify-content: center;
+	    align-items: center;
+	    transition: all 1s ease;
+
+	    @media (max-width: 1060px) {
+	    	flex-direction: column;
+	    }
+
+	    .form-group {
+	    	border-bottom: 1px solid black;
+	    	margin-right: 20px;
+		    width: 30%;
+	    	display: flex;
+	    	align-items: center;
+
+			@media (max-width: 1060px) {
+				width: 60%;
+			}
+
+	    	label {
+			    font-size: 20px;
+	    	}
+
+		    input {
+			    width: 100%;
+			    background: #FCEE42;
+			    outline: none;
+			    border: none;
+			    padding: 10px;
+			    font-size: 20px;
+			    color: #3a3a3a;
+		    }
+
+	    	input:focus:not([type=submit]) {
+		    	outline: none;
+			}
+		}
+
+		.close-btn {
+	    	position: absolute;
+      		right: 45px;
+    		top: 25px;
+    		padding: 15px;
+    		cursor: pointer;
+    		@media (max-width: 560px) {
+    			right: 5px;
+    			top: 5px;
+    		}
+		}
+
+		.close-btn:before, .close-btn:after {
+			position: absolute;
+			content: ' ';
+			top: 4px;
+			height: 24px;
+			width: 2px;
+			background-color: #333;
+		}
+
+		.close-btn:before {
+			transform: rotate(45deg);
+		}
+
+		.close-btn:after {
+			transform: rotate(-45deg);
+		}
+
+		button {
+    	background: black;
+    	border: none;
+    	color: #FCEE42;
+  		padding: 10px 25px;
+  		margin-bottom: 15px;
+  		font-size: 20px;
+  		border: 2px solid #000;
+    	&:focus {
+    		outline: none;
+    	}
+    	&:hover {
+		    background-color: transparent;
+		    border: 2px solid #000;
+		    text-decoration: none;
+		    color: #000;
+    	}
+		}
+	}
+}
+
+@keyframes rotating {
+  	from {
+    	transform: rotate(0deg);
+  	}
+  	to {
+    	transform: rotate(360deg);
+  	}
+}
+.rotating {
+  	animation: rotating 2s linear infinite;
+}

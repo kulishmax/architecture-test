@@ -1,0 +1,383 @@
+/*!
+Theme Name: Architecture of the Future
+Theme URI: smart-site.pro
+Author: Smart-Site.pro
+Author URI: smart-site.pro
+Description: Custom theme for Architecture of the Future
+Version: 1.0
+Tags: architecture, adaptive
+*/
+
+.blog-page {
+	padding: 81px 0 15px;
+	@media(max-width: 1173px) {
+    padding: 111px 0 15px;
+	}
+	@media (max-width: 767px){
+		padding: 86px 0 15px;
+	}
+	h2 {
+		font-family: 'FuturaNewBoldReg';
+		font-size: 24px;
+	}
+
+	p {
+		font-family: 'FuturaNewBookReg';
+		font-size: 18px;
+	}
+}
+
+.blog-page_top {
+	display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  @media(max-width: 580px){
+		flex-direction: column;
+    align-items: self-start;
+  }
+
+  .blog-page_top_inner {
+  	@media(max-width: 580px){
+	    margin-bottom: 15px;
+  	}
+	  h2 {
+	    margin: 0;
+	    background-color: #fcee42;
+	    padding: 18px;
+	  }
+  }
+
+  span {
+  	font-family: 'FuturaNewBookReg';
+		font-size: 18px;
+  }
+}
+
+.blog-page_top_inner-date {
+	.date {
+		margin-right: 20px;
+	}
+}
+
+.blog-page_row {
+	display: flex;
+  justify-content: flex-end;
+}
+
+.blog-page_main {
+	margin: auto;
+
+	@media(min-width: 769px) {
+		width: 600px;
+	}
+	@media(min-width: 1800px) {
+    width: 850px;
+	}
+	@media(max-width: 768px) {
+		width: 100%;
+    padding: 0 10%;
+	}
+}
+
+.blog-page_content {
+	h2 {
+		margin-bottom: 50px;
+	}
+	p {
+		margin-bottom: 20px;
+		}
+}
+
+
+.view-icon {
+	position: relative;
+	padding-left: 30px;
+  display: inline-block;
+	&:before {
+		content: "";
+	 	background-image: url('img/eye.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 24px;
+    height: 15px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+	}
+}
+
+
+.blog-page_title {
+	text-transform: uppercase;
+	font-family: 'FuturaNewBoldReg';
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.page_content_img {
+	img {
+		width: 100%;
+    height: 100%;
+	}
+}
+
+.blog-page_content_img {
+	margin: 45px 0;
+	@media(max-width: 1800px) {
+    height: 430px;
+	}
+	@media(max-width: 768px) {
+		height: 452px;
+	}
+	@media(max-width: 480px) {
+		height: 294px;
+	}
+	@media(min-width: 1801px) {
+		height: 620px;
+	}
+	.wr_img	{
+		background-repeat: no-repeat;
+	  background-size: contain;
+	  background-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+	}
+}
+
+.blog-page_content_carousel {
+  margin: 45px 0;
+}
+
+.carousel-content {
+	.item {
+		height: 504px;
+		@media(max-width: 768px) {
+	    height: 412px;
+		}
+		@media(max-width: 480px) {
+			height: 274px;
+		}
+	}
+	.carousel-control {
+  	background-image: none;
+  	opacity: 1;
+  	&:hover {
+  		opacity: .5;
+  	}
+	}
+	.right {
+		right: -83px;
+		@media(max-width: 989px) {
+			right: 0;
+		}
+	}
+	.left {
+    left: -83px;
+    @media(max-width: 989px) {
+    	left: auto;
+    }
+	}
+	.glyphicon-chevron-left {
+		&:before {
+			cursor: pointer;
+			@include arrows ("arrow-left");
+		}
+	}
+	.glyphicon-chevron-right {
+		&:before {
+			@include arrows ("arrow-right");
+			cursor: pointer;
+		}
+	}
+}
+
+.carousel-content_img {
+	background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.blog-page_content-social {
+	.social_linc {
+		height: 40px;
+    width: 40px;
+    display: inline-block;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+	}
+	.facebook-icon {
+		background-image: url(img/facebook-big.png);
+		&:hover {
+			background-image: url(img/facebook1.png);
+		}
+	}
+	.linkedin-icon {
+		background-image: url(img/linkedin-big.png);
+		&:hover {
+			background-image: url(img/linkedin1.png);
+		}
+	}
+}
+
+.blog-page_main-more {
+  margin-top: 40px;
+
+	.title {
+    text-align: center;
+    text-transform: uppercase;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcee42;
+	}
+}
+
+.blog-page_main-more_wrap {
+	display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+  margin: auto;
+  @media(max-width: 948px) {
+  	flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+	.read-block {
+		height: 435px;
+    width: 415px;
+    margin: 20px;
+    @media(max-width: 462px) {
+			width: auto;
+			height: auto;
+    }
+    a {
+			position: relative;
+			h2 {
+				position: absolute;
+				bottom: -20px;
+		    width: 315px;
+		    color: white;
+		    background-color: #3b933b;
+		    padding: 15px 25px;
+		    @media(max-width: 370px){
+		    	font-size: 21px;
+		    	width: 280px;
+		    }
+			}
+			.read-block_img {
+		    background-repeat: no-repeat;
+		    background-position: 50% 50%;
+		    background-size: cover;
+		    height: 270px;
+			}
+		}
+		.text {
+			border-bottom: 1px solid;
+	    border-right: 1px solid;
+	    border-left: 1px solid;
+	    padding: 25px;
+			cursor: pointer;
+
+			.text_bottom {
+				display: flex;
+	    	justify-content: space-between;
+	    	span {
+	    		cursor: pointer;
+	    	}
+				.view {
+					position: relative;
+			    padding-left: 30px;
+			    display: inline-block;
+
+					&:before {
+						content: "";
+				    background-image: url(img/eye.png);
+				    background-repeat: no-repeat;
+				    background-size: contain;
+				    position: absolute;
+				    width: 24px;
+				    height: 15px;
+				    left: 0;
+				    top: 50%;
+				    transform: translateY(-50%);
+					}
+				}
+			}
+		}	
+	}
+}
+
+.blog-page_sidebar {
+	background-color: #fcee42;
+  height: 760px;
+  width: 350px;
+  @media(max-width: 989px){
+  	display: none;
+  }
+  .blog-page_sidebar_inner >h2 {
+  	padding: 20px 40px 0;
+    margin: 0;
+  }
+}
+
+.sidebar-carousel {
+	.carousel-content_img {
+		height: 150px;
+	}
+	.carousel-indicators {
+		bottom: -40px;
+		li {
+	    border: 1px solid #000;
+	    border-radius: 20px;
+	    width: 25px;
+    	height: 25px;
+		}
+		.active {
+	    background-color: #3b933b;
+  	}
+	}
+	.read-block {
+    width: 270px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid;
+    a {
+    	position: relative;
+    	.read-block_img {
+    		background-repeat: no-repeat;
+		    background-position: 50% 50%;
+		    background-size: cover;
+		    height: 170px;
+    	}
+    	h2 {
+    		font-size: 18px;
+		    position: absolute;
+		    bottom: -20px;
+		    width: 216px;
+		    color: white;
+		    background-color: #3b933b;
+		    padding: 10px;
+    	}
+    }
+    .text {
+    	margin: 15px;
+    	h2 {
+    		font-size: 18px;
+    	}
+    	.text_bottom {
+		    display: flex;
+    		justify-content: space-between;
+    		span {
+    			cursor: pointer;
+    		}
+    	}
+    }
+	}
+}

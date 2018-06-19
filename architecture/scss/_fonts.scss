@@ -1,0 +1,44 @@
+/*
+Сделать по примеру: объявить два font-face с одной семьей, чтобы потом можно было указывать font-weight, а не отдельную font-family
+
+@font-face {
+	font-family: 'SourceSerifPro';
+	src: url('fonts/SourceSerifPro-Regular.eot');
+	src: local('☺'), url('fonts/SourceSerifPro-Regular.woff') format('woff'), url('fonts/SourceSerifPro-Regular.ttf') format('truetype'), url('fonts/SourceSerifPro-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SourceSerifPro';
+	src: url('fonts/SourceSerifPro-Semibold.eot');
+	src: local('☺'), url('fonts/SourceSerifPro-Semibold.woff') format('woff'), url('fonts/SourceSerifPro-Semibold.ttf') format('truetype'), url('fonts/SourceSerifPro-Semibold.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+*/
+
+@font-face {
+	font-family: 'FuturaLTPro-Book';
+	src: url('fonts/361413_0_0.eot');
+	src: url('fonts/361413_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/361413_0_0.woff2') format('woff2'),url('fonts/361413_0_0.woff') format('woff'),url('webfonts/361413_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+	font-family: 'FuturaLTPro-Bold';
+	src: url('fonts/361413_1_0.eot');
+	src: url('fonts/361413_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/361413_1_0.woff2') format('woff2'),url('fonts/361413_1_0.woff') format('woff'),url('fonts/361413_1_0.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'FuturaNewBookReg'; 
+	src: url('fonts/FuturaNewBookReg.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FuturaNewBoldReg'; 
+	src: url('fonts/FuturaNewBoldReg.otf');
+}

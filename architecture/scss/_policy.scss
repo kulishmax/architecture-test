@@ -1,0 +1,113 @@
+/*!
+Theme Name: Architecture of the Future
+Theme URI: smart-site.pro
+Author: Smart-Site.pro
+Author URI: smart-site.pro
+Description: Custom theme for Architecture of the Future
+Version: 1.0
+Tags: architecture, adaptive
+*/
+
+.policy-page {
+  margin: 100px auto 20px;
+  @media (max-width: 1173px) {
+    margin: 120px auto 20px;
+  }
+
+	.container {
+		@media (min-width: 992px) {
+	    width: 750px;
+		}
+		@media (min-width: 1500px) {
+	    width: 930px;
+		}
+	}
+
+	h1 ,h2 {
+		font-family: 'FuturaNewBoldReg';
+		font-size: 24px;
+    margin: 40px 0 20px 0px;
+	}
+
+	h3 {
+		font-family: 'FuturaNewBoldReg';
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+
+	p {
+		font-family: 'FuturaNewBookReg';
+		font-size: 18px;
+    margin-bottom: 25px;
+	}
+
+	h4 {
+		font-family: 'FuturaNewBoldReg';
+		font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    @media (max-width: 480px) {
+    	font-size: 23px;
+    }
+	}
+}
+
+.policy-page_last-change {
+	display: flex;
+  justify-content: flex-end;
+  p {
+  	padding: 5px;
+  }
+}
+
+.policy-page_list-content {
+  margin: 0 0px 40px 0;
+  list-style: none;
+	display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 150px;
+  @media (max-width: 650px) {
+		height: auto;
+  }
+	li {
+		font-family: 'FuturaNewBookReg';
+		font-size: 18px;
+		a {
+			color: #000;
+		}
+	}
+}
+
+.policy-page_list-data {
+	margin: 20px 0px 40px 25px;
+	position: relative;
+	li {
+		font-family: 'FuturaNewBookReg';
+		font-size: 18px;
+		list-style: decimal;
+		&:before {
+			content: ')';
+			position: absolute;
+	    left: -9.8px;
+		}
+	}
+}
+
+.policy-page_list-small {
+  margin: 0px 0px 40px 18px;
+}
+
+.policy-page_title-list {
+	margin-bottom: 2px!important;
+}
+
+.policy-page_list-circle {
+	margin: 0px 0px 40px 18px;
+	li {
+		list-style-type: disc;
+		font-family: 'FuturaNewBookReg';
+		font-size: 18px;
+	}
+}

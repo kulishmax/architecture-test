@@ -1,0 +1,510 @@
+/*LOCATION*/
+@mixin tcb() {
+  display: table-cell;
+  vertical-align: bottom;
+}
+@mixin tct() {
+  display: table-cell;
+  vertical-align: top;
+}
+@mixin ibt() {
+  display: inline-block;
+  vertical-align: top;
+}
+@mixin ibm() {
+  display: inline-block;
+  vertical-align: middle;
+}
+@mixin ibb() {
+  display: inline-block;
+  vertical-align: bottom;
+}
+@mixin before() {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+@mixin table(){
+  display: table;
+  font-size: 0 !important;
+  width: 100%;
+}
+
+@mixin fullsize(){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+//----------------центрирование-----------------------
+//по центру
+@mixin fc{
+  display: flex;
+  align-items: center;
+}
+//центр центр
+@mixin fcc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+//снизу справа
+@mixin fee{
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+//центр справа
+@mixin fec {
+   display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+//центр, по всей ширине
+@mixin fcs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@mixin vam(){
+  position: absolute;
+  top: 50%;
+  @include transform(translateY(-50%));
+}
+
+@mixin ham(){
+  position: absolute;
+  left: 50%;
+  @include transform(translateX(-50%));
+}
+
+@mixin cam(){
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  @include transform(translate(-50%, -50%));
+}
+//----------------------
+@mixin img(){
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+@mixin img_bcg(){
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background: transparent;
+  background-size: cover;
+}
+
+//-------------input placeholder---------------------
+
+@mixin placeholder($color, $font){  
+  &::placeholder { color:$color; font-family:$font;}  
+}
+
+//------------user-select----------
+@mixin user_select { //использовать для тегов которые не должны выделяться для копирования
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}  
+
+@mixin btn(){
+  @include ibm();
+  @include user_select;
+  @include fcc;
+  @include transition(all,.8,0);
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    @include transition(all,.8,0);
+  }
+  }
+
+
+//обрезает и добавляет ... в конце @extend %text-truncate;
+@mixin text-truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//перенос слов @extend %text-truncate
+@mixin text-hyphens(){
+  -moz-hyphens: auto !important;
+  -webkit-hyphens: auto !important;
+  -ms-hyphens: auto !important;
+  white-space: normal;
+  word-break: break-word;
+  text-align: justify;
+}
+//-------hover прозрачность---------------
+@mixin hov-opacity(){
+ opacity: 0;
+ -webkit-transition:all .8 ease 0;
+ -moz-transition:all .8 ease 0;
+ -o-transition:all .8 ease 0;
+ transition:all .8 ease 0;
+ &:hover{
+  opacity: 1;
+}
+}
+//-----------ANIMATION прячет обьект--------------
+@mixin anim_hide() {
+  margin-top: 30px;
+  visibility: hidden;
+  opacity : 0;
+  @include transition(all, .8, 0);
+}
+
+@mixin anim_show() {
+  margin-top: 0;
+  visibility: visible;
+  opacity : 1;
+}
+
+
+@mixin text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+@mixin justify {
+  text-align: justify;
+  font-size: 0;
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+  }
+}
+
+@mixin vertical {
+  text-align: center;
+  font-size: 0;
+  &:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+  }
+}
+
+@mixin font($alias, $name) {
+  @font-face {
+    font-family: $alias;
+    src: url("../fonts/" + $name + ".eot");
+    src: url("../fonts/" + $name + ".eot?#iefix") format("embedded-opentype"), url("../fonts/" + $name + ".woff") format("woff"), url("../fonts/" + $name + ".ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+
+// Simple CSS3 gradients
+@mixin g($color1, $color2) {
+  @include background-image(linear-gradient($color1, $color2));
+}
+
+@mixin gh($color1, $color2) {
+  @include background-image(linear-gradient(left, $color1, $color2));
+}
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+//  -moz-osx-font-smoothing: grayscale;
+}
+
+// e.g.: +arr(500,50, #000, l)
+@mixin arrow($width, $height, $bg, $direction) {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  @if $direction == t {
+    border-width: 0 $width / 2 + px $height + px $width / 2 + px;
+    border-color: transparent transparent $bg transparent;
+  }
+  @if $direction == r {
+    border-width: $height / 2 + px 0 $height / 2 + px $width + px;
+    border-color: transparent transparent transparent $bg;
+  }
+  @if $direction == b {
+    border-width: $height + px $width / 2 + px 0 $width / 2 + px;
+    border-color: $bg transparent transparent transparent;
+  }
+  @if $direction == l {
+    border-width: $height / 2 + px $width + px $height / 2 + px 0;
+    border-color: transparent $bg transparent transparent;
+  }
+  @if $direction == tl {
+    border-width: $height + px $width + px 0 0;
+    border-color: $bg transparent transparent transparent;
+  }
+  @if $direction == tr {
+    border-width: 0 $width + px $height + px 0;
+    border-color: transparent $bg transparent transparent;
+  }
+  @if $direction == br {
+    border-width: 0 0 $height + px $width + px;
+    border-color: transparent transparent $bg transparent;
+  }
+  @if $direction == bl {
+    border-width: $width + px 0 0 $height + px;
+    border-color: transparent transparent transparent $bg;
+  }
+}
+
+// to make smooth edges
+@mixin arrow-smoothting {
+  transform: rotate(0.05deg);
+}
+
+//-------------TRANSITIONS-------------
+@mixin transition ($property, $time, $delay){
+  -webkit-transition:$property $time + s ease $delay + s;
+  -moz-transition:$property $time + s ease $delay + s;
+  -o-transition:$property $time + s ease $delay + s;
+  transition:$property $time + s ease $delay + s;
+}
+//TRANSFORM scale(0) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg)
+@mixin transform($value){
+  -moz-transform: $value;
+  -webkit-transform: $value;
+  -o-transform: $value;
+  -ms-transform: $value;
+  transform: $value;
+}
+
+@mixin rotate($var) {
+  -webkit-transform: rotate($var + deg);
+  -ms-transform: rotate($var + deg);
+  transform: rotate($var + deg);
+}
+
+@mixin blur($var) {
+  -webkit-filter: blur($var);
+  filter: blur($var);
+}
+
+@mixin scale($var) {
+  -webkit-transform: scale($var);
+  -ms-transform: scale($var);
+  transform: scale($var);
+}
+
+
+//------------------columns-------------------
+
+@mixin columns($count, $gap, $width){
+  -webkit-column-count: $count;
+  -moz-column-count:    $count;
+  column-count:         $count; //количество колонок
+
+  -webkit-column-gap:   $gap;  
+  -moz-column-gap:      $gap;
+  column-gap:           $gap; //растояние между колонками
+
+  -webkit-column-width:   $width;
+  -moz-column-width:    $width;
+    column-width:       $width;  //ширина
+  }
+
+
+
+
+
+
+
+
+//----------BUTTONS AND LINKS----------------
+
+@mixin link_line ($color){
+  position: relative;
+  padding: 0 0 0px 0 !important;
+  @include transition(all, .5,0);
+  &:hover{
+    color: $color !important;
+    @include transition(all, .5,0);
+    &::after{
+      border-bottom: 2px solid $color;
+      @include transition(all, .5,0);
+      bottom: -1px !important;
+    }
+  }
+  &::after{
+    content: '';
+    @include ham();
+    bottom: -6px;
+    @include transition(all, .5,0);
+    width: 100%;
+    display: block;
+    border-bottom: 2px solid transparent;
+    @include transition(all, .5,0);
+  }
+}
+
+@mixin btn_lively ($color, $bcg, $bcg_hover){
+  text-decoration: none;
+  text-transform: uppercase;
+  background: $bcg;
+  color: $color;
+  cursor: pointer;
+  border: 1px solid darken($bcg,5);
+  @include transition(all, 0.5,0);
+  &:hover{
+    text-decoration: none;
+    background: $bcg_hover;
+    border: 1px solid darken($bcg_hover,5);
+    color: $color;
+    @include transition(all, 0.5,0);
+  }
+}
+
+@mixin btn_lively_pointer ($color, $bcg){
+  background: $bcg;
+  color: $color;
+  border: 2px solid $bcg;
+  padding: 10px 20px;
+  @include transition(all, .8,0);
+  &:focus{
+    color: $color !important;
+  }
+  &:hover{
+    padding: 10px 20px;
+    background: $bcg;
+    border: 2px solid $bcg;
+    color: $color;
+    @include transition(all, .8,0);
+    &:after{
+      margin-left:-2px;
+      @include transition(all, .8,0);
+    }
+  }
+  &:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 100;
+    left: -18px;
+    top: 50%;
+    margin-top: -10px;
+    border: 10px solid transparent;
+    border-right: 10px solid $bcg !important;
+    @include transition(all, .8,0);
+
+  }
+}
+
+@mixin btn_dark ($color, $bcg, $bcg_hover){
+  background: $bcg !important;
+  color: $color !important;
+  text-decoration:none !important;
+  padding: 6px;
+  @include border-radius(0px);
+  @include border-bottom-left-radius(3px);
+  @include border-bottom-right-radius(3px);
+  @include transition(all, .8,0);
+  &:hover{
+    background: $bcg_hover !important;
+  }
+}
+
+@mixin link ($color){
+  color: $color;
+  text-decoration:none !important;
+  font-weight: 300 !important;
+  position: relative;
+  @include transition(all, 0.5,0);
+  &::after{
+    background-color: transparent;
+    border-top: 1px solid  $color;
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 4px;
+    @include transition(all, 0.5,0);
+    transform: rotateY(0deg) scale(1) skew(0deg) translate(0);
+    -webkit-transform: rotateY(0deg) scale(1) skew(0deg) translate(0);
+    -moz-transform: rotateY(0deg) scale(1) skew(0deg) translate(0);
+    -o-transform: rotateY(0deg) scale(1) skew(0deg) translate(0);
+    -ms-transform: rotateY(0deg) scale(1) skew(0deg) translate(0);
+    width: 94%;
+  }
+  &:hover{
+    text-decoration: none !important;
+    color: $color !important;
+    @include transition(all, 0.5,0);
+    &::after{
+      background-color: transparent;
+      border-top: 1px solid $color !important;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+      transform: rotateY(180deg) scale(1) skew(0deg) translate(0);
+      -webkit-transform: rotateY(180deg) scale(1) skew(0deg) translate(0px);
+      -moz-transform: rotateY(180deg) scale(1) skew(0deg) translate(0);
+      -o-transform: rotateY(180deg) scale(1) skew(0deg) translate(0);
+      -ms-transform: rotateY(180deg) scale(1) skew(0deg) translate(0);
+      @include transition(all, 0.5,0);
+    }
+  }
+  &:active{
+    color: $color;
+  }
+  &:visited{
+    color: $color;
+  }
+  &:focus{
+    color: $color;
+  }
+}
+
+
+// shadow
+
+@mixin shadow_block_hover{
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+}
+@mixin shadow_block{
+  box-shadow: 0 1px 4px rgba(0,0,0,0.16), 0 1px 4px rgba(0,0,0,0.23);
+  &:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+}

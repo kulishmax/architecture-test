@@ -1,0 +1,723 @@
+# Copyright (C) 2018 Smart-Site.pro
+# This file is distributed under the same license as the Architecture of the Future package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Architecture of the Future 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/architecture\n"
+"POT-Creation-Date: 2018-05-04 17:41:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-06-13 17:38+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: functions.php:27
+msgid "Loading..."
+msgstr "Loading…"
+
+#: home_template_ru.php:53
+msgid "Крупнейшая<br>Архитектурная<br>Конференция<br>Восточной<br>Европы"
+msgstr "The biggest<br>architecture<br>conference<br>in Eastern Europe"
+
+#: home_template_ru.php:54
+msgid "Киев, Октябрь 4-5, 2018"
+msgstr "Kyiv, October 4-5, 2018"
+
+#: home_template_ru.php:671
+msgid "2 билета на AF <br> After Party"
+msgstr "2 tickets for AF <br> After Party"
+
+#: home_template_ru.php:674
+msgid "Доступ в Speakers & Partners Lounge Zone"
+msgstr "Access to Speakers & Partners Lounge Zone"
+
+#: home_template_ru.php:677
+msgid "Приоритетные места<br>около сцены"
+msgstr "Priority places near the stage"
+
+#: home_template_ru.php:680
+msgid "Участие в AF<br>Openning Party"
+msgstr "Participation in AF<br>Openning Party"
+
+#: home_template_ru.php:683
+msgid "Включено питание"
+msgstr "Food included"
+
+#: home_template_ru.php:64
+msgid "20+ часов лекций"
+msgstr "20+ lecturer hours"
+
+#: home_template_ru.php:65
+msgid "40+ спикеров"
+msgstr "40+ speakers"
+
+#: home_template_ru.php:75
+msgid "Архитектура будущего &mdash; крупнейшая архитектурная<br>конференция Восточной Европы, объединяющая<br>архитекторов, инженеров, девелоперов, медиа &mdash; всех,<br>кто стремится изменить город путем развития передовых<br>технологий и создания знаковых<br>архитектурных объектов"
+msgstr "The Architecture of the Future — is the biggest architecture<br>conference in Eastern Europe that brings together<br>authorities, architects, engineers, developers, media - all<br>who seek to change the city through the development<br>of advanced technologies and the creation of iconic projects"
+
+#: home_template_ru.php:79
+msgid "1000+<br>участников"
+msgstr "1000+<br>participants"
+
+#: home_template_ru.php:82
+msgid "63% <br> архитекторов"
+msgstr "63%<br>architects"
+
+#: home_template_ru.php:83
+msgid "16% <br> девелоперов"
+msgstr "16%<br>developers"
+
+#: home_template_ru.php:84
+msgid "7% <br> медиа*"
+msgstr "7% <br> media*"
+
+#: home_template_ru.php:85
+msgid "*14% <br>другие"
+msgstr "14% <br>other groups of <br> the participants"
+
+#: home_template_ru.php:86
+msgid "*14% другие"
+msgstr "14% <br>other groups of <br> the participants"
+
+#: home_template_ru.php:90
+msgid "2-дневная конференция с выступлениями в формате нон-стоп"
+msgstr "2-day-conference with non-stop presentations"
+
+#: home_template_ru.php:91
+msgid "Партнерские мероприятия и вечеринки"
+msgstr "partners side events and after parties"
+
+#: home_template_ru.php:92
+msgid "Экспо-зона с передовыми техническими решениями и материалами"
+msgstr "Expo-zone with up-to-date technologies"
+
+#: home_template_ru.php:93
+msgid "Первая в Украине архитектурная фотовыставка"
+msgstr "The first in Ukraine architecture photo exhibition "
+
+#: home_template_ru.php:134
+msgid "Основные темы конференции"
+msgstr "THE MAIN TOPICS"
+
+#: home_template_ru.php:139
+msgid "Виртуальная реальность,<br> искусственный интеллект<br> и интернет вещей"
+msgstr "How VR/AR/AI are changing<br>present and future of the architecture"
+
+#: home_template_ru.php:145
+msgid "Будущее BIM технологии и<br> 3D печати в архитектуре"
+msgstr "3D printing as a new <br>shape for architecture"
+
+#: home_template_ru.php:151
+msgid "Архитектура с нулевым<br> потреблением энергии"
+msgstr "Zero energy architecture"
+
+#: home_template_ru.php:157
+msgid "Умный город как новая<br> городская платформа"
+msgstr "Smart city as new <br>platform for living"
+
+#: home_template_ru.php:163
+msgid "Устойчивые стратегии<br> развития городских<br> пространств"
+msgstr "The sustainable strategies <br>for the cities development"
+
+#: home_template_ru.php:169
+msgid "Мегапроекты, супервысокие здания и новые<br>города в границах<br>существующих"
+msgstr "Mega projects, supertalls and <br>new cities within the existing cities"
+
+#: home_template_ru.php:204
+msgid "спикеры и модераторы"
+msgstr "SPEAKERS & MODERATORS"
+
+#: home_template_ru.php:372
+msgid "6 причин посетить конференцию"
+msgstr "6 REASONS TO ATTEND THE CONFERENCE"
+
+#: home_template_ru.php:373
+msgid "Это не просто еще одна конференция про архитектуру,<br>это полноценный взгляд в будущее!"
+msgstr "This is not just another conference on architecture,<br>it’s a full-fledged projection into the future!"
+
+#: home_template_ru.php:374
+msgid "Эта конференция не о трендах в архитектуре — скорее о вашем месте как креативного лидера в обществе, бизнесе и культуре"
+msgstr "This conference is not about trends in architecture - rather about your place as a creative leader in society, business and culture"
+
+#: home_template_ru.php:379
+msgid "Ощути будущее раньше, чем кто-либо другой"
+msgstr "Feel the future before anyone else"
+
+#: home_template_ru.php:380
+msgid "Будь первым, кто узнает, как архитектура связана с новыми технологиями (виртуальная/дополненная реальность, искусственный интеллект и интернет вещей), как новые технологии преобразят города и что ожидать архитектору в ближайшие 10 лет."
+msgstr "Be the first to get to learn how architecture is linked with new technologies such as virtual / augmented reality and artificial intelligence, and how new technologies will transform cities and what the architect is to expect in the next 10 years."
+
+#: home_template_ru.php:386
+msgid "Обучайся у лучших"
+msgstr "Learn from the best"
+
+#: home_template_ru.php:387
+msgid "Конференция собрала лучших профессионалов сов сего мира, готовых поделиться своими знаниями, опытом и практикой. Они станут для вас проводниками новых знаний и технологий."
+msgstr "The conference has brought together the best professionals from every corner of the world, ready to share their knowledge, experience and practice. They will become your guides to new knowledge and technologies"
+
+#: home_template_ru.php:393
+msgid "Участвуй во всех активностях конференции"
+msgstr "Participate in all the activities of the conference"
+
+#: home_template_ru.php:394
+msgid "Прими участие во всех мероприятиях конференции. Это позволит полностью окунуться в атмосферу архитектурного комьюнити, познакомиться и встретить единомышленников, стать частью международного архитектурного инкубатора, целью которого является обсуждение и переосмысление миссии архитектора."
+msgstr "During 2 days devote your time to the conference only in order to take part in all partner events. This will allow you to fully immerse yourself in the atmosphere of the architectural community, become acquainted  and meet like-minded people, become a part of the international architectural incubator aimed to discuss and reinvent  the mission of the architect."
+
+#: home_template_ru.php:400
+msgid "Узнай первым о новых технологиях<br> и разработках"
+msgstr "Find out first about new technologies<br> and developments"
+
+#: home_template_ru.php:401
+msgid "Только во время конференции пройдет выставка строительных технологий и материалов, в рамках которой ты сможешь детально ознакомиться с новинками на строительном рынке."
+msgstr "Only during the conference there will be an exhibition of building technologies and materials, within the framework of which you will be able to familiarize yourself in detail with the novelties in the construction market"
+
+#: home_template_ru.php:407
+msgid "Будь частью архитектурного комьюнити"
+msgstr "Merge into the architectural community"
+
+#: home_template_ru.php:408
+msgid "Крупнейшая архитектурная конференция стран Восточной Европы собирает на своей площадке более 1 000 представителей власти, инвесторов, девелоперов, архитекторов, медиа, отраслевые ассоциации - всех тех, кто задействован в развитии городов и грамотного пространства."
+msgstr "The largest architectural conference of the Eastern Europe countries gathers at its venue more than 1 000 representatives of the authorities, investors, developers, architects, media, industry associations - all those involved in the development of cities and well thought out space"
+
+#: home_template_ru.php:414
+msgid "Открой для себя Киев"
+msgstr "Experience Kyiv"
+
+#: home_template_ru.php:415
+msgid "Узнай, почему Киев называют самой зеленой столицей Европы. Октябрь ­– традиционно теплое время года, когда город буяет зеленью. Не пропусти самое красивое время для знакомства с городом, которому более 1 500 лет."
+msgstr "Find out why Kiev is called the greenest capital of Europe. September-October is a traditionally warm season, when the city is lapped in verdure, followed by warm golden and crimson shades. Do not miss the most beautiful time to explore the city, which is more than 1 500 years old"
+
+#: home_template_ru.php:419
+msgid "Они уже говорят о нас"
+msgstr "THEY ALREADY TALK ABOUT US"
+
+#: home_template_ru.php:485
+msgid "участники и локация"
+msgstr "PARTICIPANTS & VENUE"
+
+#: home_template_ru.php:496
+msgid "купить билет"
+msgstr "Buy a ticket"
+
+#: home_template_ru.php:498
+msgid "Индивидуальный"
+msgstr "Individual"
+
+#: home_template_ru.php:499
+msgid "Групповой (5 и более человек)"
+msgstr "Group (5 or more)"
+
+#: home_template_ru.php:507
+msgid "1 Апреля – 31 Мая 2018"
+msgstr "1 April - 31 May 2018"
+
+#: home_template_ru.php:511
+msgid "1 Июня – 31 Июля 2018"
+msgstr "1 June - 31 July 2018"
+
+#: home_template_ru.php:515
+msgid "1 Августа – 3 Октября 2018"
+msgstr "1 August - 3 October 2018"
+
+#: home_template_ru.php:528
+msgid "для студентов"
+msgstr "For students"
+
+#: home_template_ru.php:533 home_template_ru.php:566 home_template_ru.php:599
+msgid "Доступ ко всем выступлениям и активностям конференции"
+msgstr "Access to all speeches and activities of the conference"
+
+#: home_template_ru.php:545 home_template_ru.php:578 home_template_ru.php:611
+msgid "Купить"
+msgstr "Buy a ticket"
+
+#: home_template_ru.php:569 home_template_ru.php:602
+msgid "Доступ к видео и презентациям после конференции"
+msgstr "Access to video and presentations after the conference"
+
+#: home_template_ru.php:605
+msgid "Доступ в VIP <br> Lounge Zone"
+msgstr "Access to VIP <br> Lounge Zone"
+
+#: home_template_ru.php:608
+msgid "Участие в AF <br> After Party"
+msgstr "Participation in AF <br> After Party"
+
+#: home_template_ru.php:620
+msgid "Категория билетов:"
+msgstr "Ticket type:"
+
+#: home_template_ru.php:633 home_template_ru.php:662
+msgid "Имя"
+msgstr "First Name"
+
+#: home_template_ru.php:634
+msgid "Фамилия"
+msgstr "Last Name"
+
+#: home_template_ru.php:638
+msgid "Телефон"
+msgstr "Telephone"
+
+#: home_template_ru.php:646
+msgid "Подписаться на рассылку*"
+msgstr "Subscribe*"
+
+#: home_template_ru.php:650
+msgid "Оплатить"
+msgstr "Buy a ticket"
+
+#: home_template_ru.php:660
+msgid "Хочу получать новости конференции!"
+msgstr "I want to receive updates of the conference!"
+
+#: home_template_ru.php:663
+msgid "Email"
+msgstr "Email"
+
+#: home_template_ru.php:664
+msgid "Подписаться"
+msgstr "Subscribe"
+
+#: home_template_ru.php:666
+msgid "Никакого спама, только новости конференции, и только 1 раз в неделю. Вы можете отписаться от рассылки в любое время через ссылку в письме. Мы никогда не предоставим ваши контакты третьим лицам."
+msgstr "No spam, only news of the conference, and only once a week.\rYou can unsubscribe from the mailing at any time via the link in the email.\rWe will never share your contact information with third parties.\r"
+
+#: home_template_ru.php:780
+msgid "Стать партнером"
+msgstr "Become a partner"
+
+#: home_template_ru.php:781
+msgid "Стать спикером"
+msgstr "Become a speaker"
+
+#: includes/add_taxonomies.php:9
+msgctxt "taxonomy general name"
+msgid "Партнеры"
+msgstr "Partners"
+
+#: includes/add_taxonomies.php:10
+msgctxt "taxonomy singular name"
+msgid "Партнер"
+msgstr "Partner"
+
+#: includes/add_taxonomies.php:11
+msgid "Искать партнера"
+msgstr ""
+
+#: includes/add_taxonomies.php:12
+msgid "Популярные партнеры"
+msgstr ""
+
+#: includes/add_taxonomies.php:13
+msgid "Все партнеры"
+msgstr ""
+
+#: includes/add_taxonomies.php:16
+msgid "Править партнера"
+msgstr ""
+
+#: includes/add_taxonomies.php:17
+msgid "Обновить партнера"
+msgstr ""
+
+#: includes/add_taxonomies.php:18
+msgid "Добавить нового партнера"
+msgstr ""
+
+#: includes/add_taxonomies.php:19
+msgid "Имя нового партнера"
+msgstr ""
+
+#: includes/add_taxonomies.php:20
+msgid "Separate writers with commas"
+msgstr ""
+
+#: includes/add_taxonomies.php:21
+msgid "Добавить или удалить партнера"
+msgstr ""
+
+#: includes/add_taxonomies.php:22
+msgid "Choose from the most used writers"
+msgstr ""
+
+#: includes/add_taxonomies.php:23
+msgid "Партнеры"
+msgstr ""
+
+#: index.php:9
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Architecture of the Future"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "smart-site.pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom theme for Architecture of the Future"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Smart-Site.pro"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Page ENG */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Page RU */"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Stub */"
+msgstr ""
+
+#: page-speaker.php:11
+msgid "Мы ищем спикеров по всему миру!"
+msgstr "We are looking for the speakers around the world!"
+
+#: page-speaker.php:12
+msgid "Поделись своими знаниями, практикой и особенным<br>видением развития новых технологий в архитектуре, стань<br>спикером Архитектуры Будущего 2018, которая состоится<br>4-5 Октября в Киеве."
+msgstr "Share your knowledge, practice and special vision<br>of the development of new technologies in architecture,<br>become a speaker of the Architecture of the Future 2018<br>to be held October 4-5 in Kyiv."
+
+#: page-speaker.php:18
+msgid "конференция"
+msgstr "conference"
+
+#: page-speaker.php:19
+msgid "Архитектура будущего &mdash; крупнейшая европейская<br>архитектурная конференция, обьединяющая<br>архитекторов, инженеров, девелоперов, медиа &mdash; всех,<br>кто стремится изменить город путем развития передовых<br>технологий и создания знаковых<br>архитектурных обьектов"
+msgstr "The Architecture of the Future &mdash; is the biggest European<br>architecture conference that brings together<br>authorities, architects, engineers, developers, media - all<br>who seek to change the city through the development of advanced<br>technologies and the creation of<br>iconic projects"
+
+#: page-speaker.php:27
+msgid "преимущества участия"
+msgstr "THE BENEFITS"
+
+#: page-speaker.php:35
+msgid "Новые клиенты"
+msgstr "New clients"
+
+#: page-speaker.php:36
+msgid "Мы приглашаем девелоперские компании со всей Европы. Это шанс поделиться своим опытом с потенциальными  клиентами"
+msgstr "We invite development companies from all over Eastern Europe - this is a chance to tell about your experience to potential clients"
+
+#: page-speaker.php:44
+msgid "Узнаваемость бренда"
+msgstr "Brand awareness"
+
+#: page-speaker.php:45
+msgid "Восточная Европа имеет огромный потенциал в различных ненасыщенных сегментах рынка недвижимости. Не упусти шанс проявить свой бренд"
+msgstr "Eastern Europe region has a high potential in the development of the real estate market due to the lack of saturation of most real estate segments. Take a chance to express your brand"
+
+#: page-speaker.php:53
+msgid "Медиа покрытие"
+msgstr "Media coverage"
+
+#: page-speaker.php:54
+msgid "Мы гарантируем публикации в СМИ. Более 60 медиа посетят конференцию"
+msgstr "We guarantee some publications in the media - over 60 media will be covering the conference"
+
+#: page-speaker.php:62
+msgid "Поделись своим видением"
+msgstr "Share your vision"
+
+#: page-speaker.php:63
+msgid "Мы продвигаем принципы передачи опыта и знаний &mdash; более 1000 человек будут слушателями твоего выступления"
+msgstr "We promote the principles of knowledge sharing - more than 1,000 guests will be your listeners"
+
+#: page-speaker.php:71
+msgid "Стань частью сообщества"
+msgstr "Become a part of the community"
+
+#: page-speaker.php:72
+msgid "Мы собираемся провести крупнейшую в Восточной Европе конференцию для архитекторов. Стань частью нашего сообщества!"
+msgstr "We are going to host the biggest annual architecture conference in Eastern Europe"
+
+#: page-speaker.php:80
+msgid "Получи информацию"
+msgstr "Get information"
+
+#: page-speaker.php:81
+msgid "Мы готовим отчет по ситуации на рынке недвижимости Восточной Европы. Будь первым, кто узнает как будет дальше развиваться регион"
+msgstr "We are preparing a report on the situation in the real estate market of Eastern Europe - be the first to find out how the region will develop further"
+
+#: page-speaker.php:90
+msgid "темы для освещения"
+msgstr "the main topics"
+
+#: page-speaker.php:101
+msgid "Будущее BIM<br>технологии и 3D печати<br>в архитектуре"
+msgstr "3D printing<br>as a new shape<br>for architecture"
+
+#: page-speaker.php:107
+msgid "Архитектура<br>с нулевым<br>потреблением энергии"
+msgstr "Zero<br>energy<br>architecture"
+
+#: page-speaker.php:125
+msgid "Мега проекты, супер<br>высокие здания и новые<br>города в границах<br>существующих"
+msgstr "Mega projects, supertalls<br>and new cities<br>within the existing<br>cities"
+
+#: page-speaker.php:134
+msgid "Мы ищем спикеров с уникальным интересным<br>опытом и практикой. Мы ищем архитекторов,<br>стремящихся изменить мир и свои города к лучшему!<br>Мы ищем горящие глаза, способные зажечь<br>аудиторию в зале!"
+msgstr "We are looking for speakers with a unique interesting<br>experience and practice. We are looking for architects,<br>seeking to change the world and their cities for the better!<br>We are looking for shining eyes<br>that can ignite the audience!"
+
+#: page-speaker.php:135
+msgid "Поиск спикеров будет завершен<br>31 Июля 2018"
+msgstr "The search for speakers will be completed on July 31, 2018"
+
+#: page-speaker.php:141
+msgid "хочу стать спикером"
+msgstr "I would like to become a speaker"
+
+#: page-speaker.php:145
+msgid "Имя*"
+msgstr "Name*"
+
+#: page-speaker.php:146
+msgid "Фамилия*"
+msgstr "Surname*"
+
+#: page-speaker.php:147
+msgid "Email*"
+msgstr "Email*"
+
+#: page-speaker.php:152
+msgid "Компания*"
+msgstr "Company*"
+
+#: page-speaker.php:153
+msgid "Должность*"
+msgstr "Position*"
+
+#: page-speaker.php:153
+msgid "Телефон*"
+msgstr "Cellphone*"
+
+#: page-speaker.php:157
+msgid "*обязательно для заполнения"
+msgstr "* marked fields are necessary to fill"
+
+#: page-speaker.php:160
+msgid "Возможная тема выступления"
+msgstr "The possible topic"
+
+#: page-speaker.php:165
+msgid "Ссылка на профиль в Linkedin"
+msgstr "LinkedIn link"
+
+#: page-speaker.php:171
+msgid "Подписаться на рассылку"
+msgstr "Subscribe to the newsletter"
+
+#: page-speaker.php:177
+msgid "Согласен с политикой конфеденциальности"
+msgstr "I confirm the Privacy Policy"
+
+#: page-speaker.php:192
+msgid "Данная заявка носит исключительно конфиденциальный характер и любая информация не будет предана<br>огласке до момента официального оглашения спикера и только по его согласию."
+msgstr "This application is exclusively confidential and any information will not be given publicity<br>until the official announcement of the speaker and only by his consent."
+
+#: page-partners.php:41
+msgid "Мы ищем партнеров по всему миру!"
+msgstr "We are looking for the partners around the world!"
+
+#: page-partners.php:42
+msgid "Мы работаем над тем, чтобы собрать в одном месте и в одно<br>время архитекторов и представителей девелоперских<br>компаний. Если данная аудитория является вашей целевой,<br>предлагаем партнерское сотрудничество."
+msgstr "We work to gather in one place and into one time<br>architects and representatives of development companies.<br>If this audience is your target,<br>we offer partnership cooperation."
+
+#: page-partners.php:57
+msgid "партнерские проявления*"
+msgstr "Partnership*"
+
+#: page-partners.php:60
+msgid "Выступление с 30-минутной презентацией"
+msgstr "Speech with a 30-minute presentation"
+
+#: page-partners.php:61
+msgid "Стенд компании в экспо-зоне"
+msgstr "Company stand in the expo zone"
+
+#: page-partners.php:62
+msgid "Имиджевая представленность компании<br>на всех информационных носителях"
+msgstr "Brand representation of the company<br>in all information sources"
+
+#: page-partners.php:63
+msgid "Комуникационная стратегия компании<br>в рамках конференции"
+msgstr "Communication strategy of the company<brwithin the conference"
+
+#: page-partners.php:64
+msgid "До 10 билетов для участников конференции"
+msgstr "Up to 10 tickets for conference participants"
+
+#: page-partners.php:65
+msgid "Постоянный доступ в speaker & partner<br>lounge zone"
+msgstr "Permanent access to speaker & partner<br>lounge zone"
+
+#: page-partners.php:66
+msgid "Участие во всех вечеринках конференции"
+msgstr "Participation in all the parties and side events"
+
+#: page-partners.php:67
+msgid "Участие в ужине для спикеров конференции"
+msgstr "Participation in the dinner for the speakers and development companies"
+
+#: page-partners.php:68
+msgid "Возможность провести собственный<br>side event для участников конференции"
+msgstr "Opportunity to hold your own<br>side event for conference participants"
+
+#: page-partners.php:74
+msgid "*Тут представлен неполный перечень партнерских<br>проявлений. Каждый партнерский пакет имеет свою специфику"
+msgstr "*Here is an incomplete list of partner promo opportunities.<br>Each partner package has its own specifics"
+
+#: page-partners.php:81
+msgid "аудитория конференции"
+msgstr "MAIN TIPS"
+
+#: page-partners.php:85
+msgid "Ожидаемая аудитория<br>(специализация)"
+msgstr "Expected audience<br>(by specialization)"
+
+#: page-partners.php:90
+msgid "Ожидаемая аудитория<br>(страна)"
+msgstr "Expected audience<br>(by geography)"
+
+#: page-partners.php:100
+msgid "Ожидаемая аудитория<br>(возраст)"
+msgstr "Target audience<br>(by age)"
+
+#: page-partners.php:105
+msgid "Ожидаемая аудитория<br>(пол)"
+msgstr "Target audience<br>(by gender)"
+
+#: page-partners.php:133
+msgid "Из каких стран приедут спикеры?"
+msgstr "What countries will the speakers come from?"
+
+#: page-partners.php:134
+msgid "База контактов составляет более 5 000 архитекторов<br>со всего мира, поэтому мы привезем лучших из лучших!"
+msgstr "The database of contacts is more than 5 000 architects<br>from around the world, so we'll bring the best of the best!"
+
+#: page-partners.php:160
+msgid "хочу стать партнером"
+msgstr "I would like to become a partner"
+
+#: page-partners.php:198
+msgid "Кроме заявки, есть также возможность связаться с нами напрямую:<br>Татьяна, +38-093-567-28-81, tania@architectureofthefuture.com"
+msgstr "In addition to the application, there is also the opportunity to contact us directly:<br>Tania, + 38-093-567-28-81, tania@architectureofthefuture.com"
+
+#: home_template_ru.php:696
+msgid "Скидка - 10%"
+msgstr "10% discount"
+
+#: home_template_ru.php:699
+msgid "Группа 5-9 человек"
+msgstr "Group of 5-9 people"
+
+#: home_template_ru.php:702
+msgid "Забронировать"
+msgstr "Book a ticket"
+
+#: home_template_ru.php:707
+msgid "Скидка - 15%"
+msgstr "15% discount"
+
+#: home_template_ru.php:710
+msgid "Группа 10-15 человек"
+msgstr "Group of 10-15 people"
+
+#: home_template_ru.php:718
+msgid "Скидка - 20%"
+msgstr "20% discount"
+
+#: home_template_ru.php:721
+msgid "Группа 16 человек и более"
+msgstr "Group of 16 people and more"
+
+#: home_template_ru.php:729
+msgid "Групповая скидка распространяется при условии покупки билетов в одной из категорий участия.<br>Организатор предоставляет всю первичную документацию при покупке билетов по договору."
+msgstr "The group discount is available for the purchase of tickets in one of the categories of participation.<br>The organizer provides all the documents when buying tickets under the contract."
+
+#: page-partners.php:192
+msgid "Спасибо за интерес к нашему мероприятию!<br>Мы свяжемся с вами в течение суток."
+msgstr "Thank you for your interest in our event!<br>We will contact you within 24 hours."
+
+#: page-partners.php:193
+msgid "Команда AF"
+msgstr "AF Team"
+
+#: home_template_ru.php:772
+msgid "Украина, Киев"
+msgstr "Ukraine, Kiev"
+
+#: home_template_ru.php:775
+msgid "4-5 октября, 2018"
+msgstr "4-5 october, 2018"
+
+#: home_template_ru.php:783
+msgid "для студентов*"
+msgstr "for students*"
+
+#: home_template_ru.php:803
+msgid "*В первый день конференции на стойке регистрации нужно показать студенческий документ. Без подтверждения статуса Студента регистрация по билету Junior проведена не будет."
+msgstr "*On the first day of the conference, a student document should be shown at the front desk.  Without confirmation of the status of the Student, the registration for the Junior ticket will not be conducted."
+
+#: home_template_ru.php:808
+msgid "Все вопросы можно направлять на hello@architectureofthefuture.com или звонить +38-063-439-46-78"
+msgstr "All questions can be sent to hello@architectureofthefuture.com or call + 38-063-439-46-78"
+
+#: home_template_ru.php:812
+msgid "билеты"
+msgstr "tickets"
+
+#: home_template_ru.php:817
+msgid "оформление"
+msgstr "ordering"
+
+#: home_template_ru.php:822
+msgid "оплата"
+msgstr "payment"
+
+#: home_template_ru.php:830
+msgid "Выберите тип и количество<br>билетов"
+msgstr "Choose the type and number<br>of tickets"
+
+#: home_template_ru.php:889
+msgid "Код для скидки"
+msgstr "Discount code"
+
+#: home_template_ru.php:897
+msgid "Оплата прошла Успешно"
+msgstr "Payment was successful"
+
+#: home_template_ru.php:898
+msgid "Проверьте, пожалуйста, билет по указанному имейлу. Спасибо за интерес к конференции Architecture of the Future! Мы сделаем все возможное, чтобы оправдать ваши ожидания. Оставайтесь на связи!"
+msgstr "Please check the ticket for the specified email. Thank you for your interest in the conference Architecture of the Future! We will do our best to meet your expectations. Stay in touch!"
+
+#: home_template_ru.php:898
+msgid "0 билетов"
+msgstr "0 tickets"
+
+#: home_template_ru.php:913
+msgid "Оформить заказ"
+msgstr "Checkout"
+
+#: home_template_ru.php:915
+msgid "Pay for the order"
+msgstr "tickets"
+
+#: home_template_ru.php:922
+msgid "Все оплаты проводятся в гривне. Пересчет курса осуществляется автоматически в день проведения оплаты. Для осуществления оплаты платежной картой конференция Architecture of the Future использует платежную систему wayforpay.com. Система безопасных электронных платежей реализована на самом современном стандарте безопасности — 3D Secure, который обеспечит максимальную безопасность ваших платежей в Интернет."
+msgstr "All payments are made in hryvnia. The exchange rate is automatically converted on the day of payment. To make payment by payment card, the Architecture of the Future conference uses wayforpay.com payment system. The system of secure electronic payments is implemented on the most modern security standard - 3D Secure, which will ensure the maximum security of your payments to the Internet."
+
+#: home_template_ru.php:925
+msgid "Технология 3D Secure является частью глобальных программ Visa Verified by Visa и MasterCard MasterCardSecureCode™, целью которых является предоставление и обеспечение безопасных и надежных методов оплаты товаров и услуг в глобальной сети Интернет. Конфиденциальная информация о номере вашей карточки, CVV2/CVC2-коде передаются Вами на сайт сервера/системы безопасных электронных платежей в зашифрованном виде. Для передачи данных используется протокол TLS, поэтому безопасность операций полностью гарантирована."
+msgstr "3D Secure technology is part of the global programs Visa Verified by Visa and MasterCard MasterCardSecureCode ™, the purpose of which is to provide and provide safe and reliable methods of payment for goods and services on the global Internet. Confidential information about your card number, CVV2 / CVC2-code is transferred to you on the site of the server / system of secure electronic payments in an encrypted form. TLS is used for data transmission, therefore the security of operations is fully guaranteed."

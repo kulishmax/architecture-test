@@ -1,0 +1,138 @@
+header {
+	// @media (max-width: 1199px) {
+	//   .navbar-header {
+	//       float: none;
+	//   }
+	//   .navbar-left,.navbar-right {
+	//       float: none !important;
+	//   }
+	//   .navbar-toggle {
+	//       display: block;
+	//   }
+	//   .navbar-collapse {
+	//       border-top: 1px solid transparent;
+	//       box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	//   }
+	//   .navbar-fixed-top {
+	//       top: 0;
+	//       border-width: 0 0 1px;
+	//   }
+	//   .navbar-collapse.collapse {
+	//       display: none!important;
+	//   }
+	//   .navbar-nav {
+	//       float: none!important;
+	//       margin-top: 7.5px;
+	//   }
+	//   .navbar-nav>li {
+	//       float: none;
+	//   }
+	//   .navbar-nav>li>a {
+	//       padding-top: 10px;
+	//       padding-bottom: 10px;
+	//   }
+	//   .collapse.in{
+	//       display:block !important;
+	//   }
+	// }
+	.navbar {
+		border-radius: 0;
+		background: #fff;
+		border-bottom: 1px solid #000;
+		margin-bottom: 0;
+		width: 100%;
+		z-index: 200;
+		.container-fluid {
+			@media (min-width: 1235px) {
+				display: flex;
+				justify-content: center;
+			}
+			@media (min-width: 768px) and (max-width: 1230px) {
+				display: flex;
+			}
+		}
+	}
+	.navbar-brand {
+		height: 80px;
+		img {
+			width: 180px;
+		}
+	}
+	.navbar-fixed-top .navbar-collapse {
+		max-height: none;
+	}
+	.navbar-toggle {
+		border-color: #000;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		.icon-bar {
+			background-color: #000;
+		}
+	}
+	.navbar-nav {
+		padding-top: 10px;
+		li {
+			a {
+				color: #000;
+				font-size: 18px;
+				transition: all .1s;
+				font-weight: 400;
+				font-family: 'FuturaNewBookReg';
+				transition: all .5s;
+				&:hover {
+					background-color: transparent;
+					color: #676E83;
+				}
+				&:focus {
+					background-color: transparent;
+					outline: none;
+				}
+				&.selected_item {
+					font-weight: 600;
+					font-size: 20px;
+				}
+			}
+		}
+		.buy_ticket {
+			margin-left: 20px;
+			padding: 5px;
+			@media (min-width: 767px) and (max-width: 800px) {
+				margin-left: 10px;
+			}
+			@media (max-width: 767px) {
+				margin-left: 0px;
+			}
+			a {
+				background-color: #3B933B;
+				color: #fff;
+				padding: 10px 30px;
+				transition: all .3s;
+				text-align: center;
+				font-weight: 600;
+				font-family: 'FuturaNewBookReg';
+				&:hover {
+					background-color: #000000;
+					color: white;
+				}
+				&:focus {
+					background-color: #000000;
+					outline: none;
+				}
+				@media (max-width: 768px) {
+					width: 200px;
+				}
+			}
+		}
+	}
+	.lang_switcher {
+		a {
+			display: inline-block;
+			padding-left: 0;
+			padding-right: 0;
+			@media (max-width: 768px) {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+	}
+}
